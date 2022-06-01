@@ -1,0 +1,36 @@
+/************ tag selector*********/
+body {
+  background-color: #EAF6F6;
+}
+hr {
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 10%;
+}
+h1 {
+  color: #66BFBF;
+}
+h3 {
+  color: #66BFBF;
+}
+h2 {
+  color: #66BFBF;
+}
+/************ class selector ***********/
+img:hover {
+  border-radius: 100px;
+}
+/*.change {
+  background-color: blue;
+}*/
+.abc{
+  color: #FF4949;
+}
+/************** id selector ************/
+#heading{
+  color:#3DB2FF; /* it override the tag */
+}
+.block {
+  display: block;
+}
